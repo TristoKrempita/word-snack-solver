@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Snack Solver</title>
+    {% with messages = get_flashed_messages() %}
+    {% for message in messages %}
+    <p style="color:#FF0000; font-size:25px; ">{{message}}</p>
+    {% endfor %}
+    {% endwith %}
+  </head>
+  <body>
+    <form action="" method="post">
+      <p>Input all letters in no particular order: </p>
+      <input type="text" name="letters" value="">
+    </form>
+    {% if words %}
+    {%for key,value in words.items() %}
+    <h4>{{key}}</h4>
+    <ul>
+      {%for val in value %}
+        <li>{{val}}</li>
+      {% endfor %}
+    </ul>
+    <br>
+    {% endfor %}
+    {% endif %}
+  </body>
+</html>
