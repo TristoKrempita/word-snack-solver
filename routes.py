@@ -9,7 +9,6 @@ def words():
         if not(request.form['letters'].isalpha()):
             flash("Only input letters please")
             return render_template('home.html')
-        print(request.form['letters'])
-        words_dict = word_finder(request.form['letters'])
+        words_dict = word_finder(request.form['letters'].upper())
         return render_template('home.html',words = words_dict)
     return render_template('home.html')
