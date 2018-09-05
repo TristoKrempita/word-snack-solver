@@ -7,11 +7,11 @@ The two branches are
 
 #### A Flask app where you input all letters from _Word Snack_ and get all english word combinations from those letters...
 
-## Master branch
+## [Master branch](https://github.com/TristoKrempita/word-snack-solver/tree/master)
 
 - using the [pyenchant](https://pypi.org/project/pyenchant/) library
 
-## Heroku branch
+## [Heroku branch](https://github.com/TristoKrempita/word-snack-solver/tree/heroku)
 
 - using the [nltk](https://pypi.org/project/nltk/) package
 
