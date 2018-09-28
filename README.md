@@ -15,4 +15,9 @@ The two branches are
 
 - using the [nltk](https://pypi.org/project/nltk/) package
 
+---------------------------------------------------------------
+>In this word game your goal is to discover all hidden words. 
+Just swipe the letters to form words and complete the puzzles! 
 
+![Example 1](https://i.imgur.com/d16alrh.png)
+![Example 2](https://i.imgur.com/MzhSAOD.png)
